@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: moccasin;
+}
+
+.first{
+    display:flex;
+    align-items: initial;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 10px 0;
+    text-decoration: none;
+}
+.firstA{
+    display: flex;
+   
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    text-decoration: underline;
+    margin: 30px;
+}
+.projects{
+    height: 900px;
+    background-color: orange;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    border-radius: 30px;
+    width: auto;
+    transition: all 500ms ease-in-out;
+}
+.projects:hover{
+    background:whitesmoke;
+    padding: 20px 20px;
+
+}
+.projectImageA{
+    margin: 30px;
+    cursor: pointer;
+    transition: all 500ms ease;
+
+}
+.projectImageA:hover{
+    padding: 20px 20px;
+    background: rgb(213, 216, 71);
+    border-radius: 12px;
+}
+
+.visionA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.visionB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.vision{
+    height: 80px;
+}
+
+.myImg{
+    height: 40px;
+    width: 70px;
+    display: grid;  
+    float: center;
+}
+
+.second{
+    margin: 0;
+    padding: 0;
+    background-image: url("./asset/annie.jpg");
+    display: flex;
+    border: 3px solid red;
+    border-radius: 3px;
+    justify-content:center;
+    background-size: cover;
+    align-items: center;
+    height: 500px;
+    width: 100vw;
+
+}
+.tech{
+    /* animation-name: test;
+    animation-duration: 3s; */
+    animation-name: test;
+    animation-timing-function: ease-in-out;
+    animation-direction: initial;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:infinite ;
+}
+@keyframes test{
+    from{
+        margin-right: 0%;
+        width: 100%;
+    }
+    to{
+        margin-left: 100%;
+        width: 120%;
+    }
+}
+.read{
+    background-color: rgba(255, 228, 181, 0.623);
+    display: grid;
+    margin:0;
+    justify-content: center;
+    height: 40%;
+    width: 60%;
+    place-items: center;
+    grid-template-columns: 1fr ;
+    transition: all 500ms ease;
+    overflow: hidden;
+}
+.visionC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background:green;
+    width: 120px;
+    margin: 30px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.visionC:hover{
+    background-color: rgb(114, 79, 19);
+    padding: 10px 10px;
+}
+
+.btt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.secondA{
+    height: 40%;
+    background-image: url("./asset/bg.jpg");
+}
+
+.secondB{
+    color: lawngreen;
+    height: 40%;
+    width: 60%;
+    display: flex;
+    justify-content:flex-end ;
+    align-items: center;
+   justify-content:center ;
+   background-color: rgba(255, 160, 122, 0.383);
+   font-size: 50px;
+   border: 2px solid red;
+   border-radius: 3px;
+   margin: 10px 20px;
+}
+
+footer{
+    background: black;
+    margin-top: 30px;
+    /* animation-name: test;
+    animation-timing-function: ease-in-out;
+    animation-direction: initial;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count:infinite ; */
+     animation-name: test2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test2{
+    from{
+        margin-left: 0%;
+        width: 100%;
+    }
+    to{
+        margin-right: 100%;
+        width: 120%;
+    }
+}
+
+.end{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    color: white;
+}
+
+.endImage{
+    margin: 20px 30px;
+}
+.terms{
+    margin-top: 20px;
+}
+.add{
+    color: white;
+}
+
+.mtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background:green;
+    width: 120px;
+    margin: 30px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.mtn:hover{
+    background-color: rgb(114, 79, 19);
+    padding: 5px 5px;
+}
+
+span{
+    text-decoration: none;
+}
+
+.develop{
+    margin-top: 20px;
+}
+
+.dept{
+    position: absolute;
+    overflow: hidden;
+    animation-name: test3;
+    animation-timing-function: ease-in-out;
+    animation-direction: initial;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count:infinite ;
+}
+/* @keyframes test3{
+    from{
+        margin-bottom: 0%;
+        width: 100%;
+    }
+    to{
+        margin-top: 100%;
+        width: 120%;
+    } */
